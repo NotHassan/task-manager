@@ -10,13 +10,13 @@ CREATE TABLE IF NOT EXISTS `tasks` (
 ) AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
 
 INSERT INTO `tasks` (`id`, `name`, `description`) VALUES
-(1, 'Task 1', 'Task 1 Example Descrition'),
-(2, 'Task 2', 'Task 2 Example Descrition'),
-(3, 'Task 3', 'Task 3 Example Descrition'),
-(4, 'Task 4', 'Task 4 Example Descrition'),
-(5, 'Task 5', 'Task 5 Example Descrition'),
-(6, 'Task 6', 'Task 6 Example Descrition'),
-(7, 'Task 7', 'Task 7 Example Descrition');
+(1, 'Task 1', 'Task 1 Example Description'),
+(2, 'Task 2', 'Task 2 Example Description'),
+(3, 'Task 3', 'Task 3 Example Description'),
+(4, 'Task 4', 'Task 4 Example Description'),
+(5, 'Task 5', 'Task 5 Example Description'),
+(6, 'Task 6', 'Task 6 Example Description'),
+(7, 'Task 7', 'Task 7 Example Description');
 
 
 DROP TABLE IF EXISTS `users`;
