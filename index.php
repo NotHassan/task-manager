@@ -185,6 +185,10 @@
 								$stmt->execute();
 								$stmt->bind_result($id, $name, $description);
 
+								$id = htmlspecialchars($id);
+								$name = htmlspecialchars($name);
+								$description = htmlspecialchars($description);
+
 								while ($stmt->fetch()) {
 
 									// Weird PHP formatting to ensure the HTML is formatted correctly when echo'd
